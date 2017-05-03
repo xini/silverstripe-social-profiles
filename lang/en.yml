@@ -1,0 +1,10 @@
+en:
+  SocialMediaSiteConfigExtension:
+    FACEBOOKPAGE: 'Facebook Page (full URL)'
+    GOOGLEPAGE: 'Google Page (full URL)'
+    INSTAGRAMPAGE: 'Instagram Page (full URL)'
+    LINKEDINPAGE: 'LinkedIn Page (full URL)'
+    PINTERESTPAGE: 'Pinterest Page (full URL)'
+    SocialMediaProfiles: 'Social Media Profiles'
+    TWITTERPAGE: 'Twitter Page (full URL)'
+    YOUTUBEPAGE: 'Youtube Page (full URL)'

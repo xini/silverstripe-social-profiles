@@ -1,0 +1,10 @@
+de:
+  SocialMediaSiteConfigExtension:
+    FACEBOOKPAGE: 'Facebook Seite (komplette URL)'
+    GOOGLEPAGE: 'Google Seite (komplette URL)'
+    INSTAGRAMPAGE: 'Instagram Seite (komplette URL)'
+    LINKEDINPAGE: 'LinkedIn Seite (komplette URL)'
+    PINTERESTPAGE: 'Pinterest Seite (komplette URL)'
+    SocialMediaProfiles: 'Social Media Profile'
+    TWITTERPAGE: 'Twitter Seite (komplette URL)'
+    YOUTUBEPAGE: 'Youtube Seite (komplette URL)'
