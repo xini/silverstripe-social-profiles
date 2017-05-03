@@ -1,0 +1,19 @@
+{
+	"name": "innoweb/silverstripe-social-profiles",
+	"description": "Adds social profile links to the site.",
+	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe", "social", "profiles"],
+	"authors": [{
+		"name": "Florian Thoma",
+		"homepage": "http://www.innoweb.com.au"
+	}],
+	"require":
+	{
+		"silverstripe/framework": "~3.2",
+		"silverstripe/cms": "~3.2"
+	},
+	"extra": {
+		"installer-name": "social-profiles"
+	}
+}

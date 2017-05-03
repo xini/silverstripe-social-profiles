@@ -1,0 +1,21 @@
+---
+Name: socialprofiles
+---
+Page:
+  extensions:
+    - SociaProfilesPageExtension
+Page_Controller:
+  extensions:
+    - SocialProfilesPageControllerExtension
+SiteConfig:
+  extensions:
+    - SocialMetaConfigExtension
+SocialProfilesConfigExtension:
+  multisites_enable_global_settings: false
+---
+Only:
+  classexists: 'Multisites'
+---
+Site:
+  extensions:
+    - SocialMetaConfigExtension
