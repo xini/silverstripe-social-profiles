@@ -1,18 +1,18 @@
 @media screen
 {
-	.social-profiles { overflow: hidden; display: inline-block; }
-	.social-link { float: left; margin: 0 2em; }
+	.social-profiles { overflow: hidden; display: inline-block; list-style: none; margin: 0; padding: 0; }
+	.social-link { float: left; margin: 0 1em; padding: 0; }
 	.social-link:first-child { margin-left: 0; }
 	.social-link:last-child { margin-right: 0; }
 	.social-link a { 
 		display: block; 
-		background: transparent url(/social-profiles/images/social-profiles.png) 0 0 no-repeat;
+		background: #ddd url(/social-profiles/images/social-profiles.png) 0 0 no-repeat;
 		background-clip: content-box; 
 		background-size: cover;
-		width: 58px;
-		height: 58px;
+		width: 55px;
+		height: 55px;
 		margin: 0 auto;
-		border: 2px solid #fff;
+		border: 0;
 		-moz-border-radius: 50%; /* Firefox */
 		-webkit-border-radius: 50%; /* Safari and chrome */ 
 		-khtml-border-radius: 50%; /* Linux browsers */ 
@@ -20,12 +20,12 @@
 	}
 	.social-link a span { position: absolute; top: -32768px; left: -32768px; }
 	.social-link.facebook a { background-position: 0 0; }
-	.social-link.twitter a { background-position: 0 -60px; }
-	.social-link.google a { background-position: 0 -120px; }
-	.social-link.linkedin a { background-position: 0 -180px; }
-	.social-link.pinterest a { background-position: 0 -240px; }
-	.social-link.instagram a { background-position: 0 -300px; }
-	.social-link.youtube a { background-position: 0 -360px; }
+	.social-link.twitter a { background-position: 0 -110px; }
+	.social-link.google a { background-position: 0 -220px; }
+	.social-link.linkedin a { background-position: 0 -330px; }
+	.social-link.pinterest a { background-position: 0 -440px; }
+	.social-link.instagram a { background-position: 0 -550px; }
+	.social-link.youtube a { background-position: 0 -660px; }
 	
 	.social-link.facebook a:focus,
 	.social-link.facebook a:hover,

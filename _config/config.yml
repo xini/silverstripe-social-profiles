@@ -3,13 +3,13 @@ Name: socialprofiles
 ---
 Page:
   extensions:
-    - SociaProfilesPageExtension
+    - SocialProfilesPageExtension
 Page_Controller:
   extensions:
     - SocialProfilesPageControllerExtension
 SiteConfig:
   extensions:
-    - SocialMetaConfigExtension
+    - SocialProfilesConfigExtension
 SocialProfilesConfigExtension:
   multisites_enable_global_settings: false
 ---
@@ -18,4 +18,4 @@ Only:
 ---
 Site:
   extensions:
-    - SocialMetaConfigExtension
+    - SocialProfilesConfigExtension
