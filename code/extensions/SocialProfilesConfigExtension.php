@@ -11,10 +11,6 @@ class SocialProfilesConfigExtension extends DataExtension {
 		'ProfilesInstagramPage' => 'Varchar(255)',
 	);
 	
-	private static $has_one = array(
-	    'SharingImage' => 'Image'
-	);
-
 	public function updateCMSFields(FieldList $fields) {
 		
 		if (
