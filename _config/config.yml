@@ -3,19 +3,19 @@ Name: socialprofiles
 ---
 Page:
   extensions:
-    - SocialProfilesPageExtension
-Page_Controller:
+    - Innoweb\SocialProfiles\Extensions\PageExtension
+PageController:
   extensions:
-    - SocialProfilesPageControllerExtension
-SiteConfig:
+    - Innoweb\SocialProfiles\Extensions\PageControllerExtension
+SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - SocialProfilesConfigExtension
-SocialProfilesConfigExtension:
+    - Innoweb\SocialProfiles\Extensions\ConfigExtension
+Innoweb\SocialProfiles\Extension\ConfigExtension:
   multisites_enable_global_settings: false
 ---
 Only:
-  classexists: 'Multisites'
+  classexists: 'Symbiote\Multisites\Multisites'
 ---
-Site:
+Symbiote\Multisites\Model\Site:
   extensions:
-    - SocialProfilesConfigExtension
+    - Innoweb\SocialProfiles\Extensions\ConfigExtension

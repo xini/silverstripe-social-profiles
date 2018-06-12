@@ -1,4 +1,4 @@
-# SilverStripe Social Metadata
+# SilverStripe Social Profiles
 
 [![Version](http://img.shields.io/packagist/v/innoweb/silverstripe-social-profiles.svg?style=flat-square)](https://packagist.org/packages/innoweb/silverstripe-social-profiles)
 [![License](http://img.shields.io/packagist/l/innoweb/silverstripe-social-profiles.svg?style=flat-square)](license.md)
@@ -9,7 +9,9 @@ Adds social profile links to the site.
 
 ## Requirements
 
-* SilverStripe CMS ~3.2
+* SilverStripe CMS 4.x
+
+Note: this version is compatible with SilverStripe 4. For SilverStripe 3, please see the [1.0 release line](https://github.com/xini/silverstripe-social-profiles/tree/1.0).
 
 ## Installation
 
@@ -33,12 +35,12 @@ To add the profile links to your site, add the following include to your `Page.s
 
 ### MultiSites support
 
-The module supports the [multisites module] (https://github.com/silverstripe-australia/silverstripe-multisites) and by default adds the config options to the Sites.
+The module supports the [multisites module](https://github.com/silverstripe-australia/silverstripe-multisites) and by default adds the config options to the Sites.
 
 If you want to manage the profiles globally, please add the following settings in your `config.yml`:
 
 ```
-SocialProfilesConfigExtension:
+Innoweb\SocialProfiles\Extensions\ConfigExtension:
   multisites_enable_global_settings: true
 ``` 
 

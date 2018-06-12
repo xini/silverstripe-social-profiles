@@ -1,5 +1,5 @@
 de:
-  SocialMediaSiteConfigExtension:
+  Innoweb\SocialProfiles\Extension\ConfigExtension:
     FACEBOOKPAGE: 'Facebook Seite (komplette URL)'
     GOOGLEPAGE: 'Google Seite (komplette URL)'
     INSTAGRAMPAGE: 'Instagram Seite (komplette URL)'

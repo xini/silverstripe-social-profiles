@@ -4,18 +4,18 @@
 	.social-link { float: left; margin: 0 1em; padding: 0; }
 	.social-link:first-child { margin-left: 0; }
 	.social-link:last-child { margin-right: 0; }
-	.social-link a { 
-		display: block; 
-		background: #ddd url(/social-profiles/images/social-profiles.png) 0 0 no-repeat;
-		background-clip: content-box; 
+	.social-link a {
+		display: block;
+		background: #ddd url(../images/social-profiles.png) 0 0 no-repeat;
+		background-clip: content-box;
 		background-size: cover;
 		width: 55px;
 		height: 55px;
 		margin: 0 auto;
 		border: 0;
 		-moz-border-radius: 50%; /* Firefox */
-		-webkit-border-radius: 50%; /* Safari and chrome */ 
-		-khtml-border-radius: 50%; /* Linux browsers */ 
+		-webkit-border-radius: 50%; /* Safari and chrome */
+		-khtml-border-radius: 50%; /* Linux browsers */
 		border-radius: 50%; /* CSS3 */
 	}
 	.social-link a span { position: absolute; top: -32768px; left: -32768px; }
@@ -26,7 +26,7 @@
 	.social-link.pinterest a { background-position: 0 -440px; }
 	.social-link.instagram a { background-position: 0 -550px; }
 	.social-link.youtube a { background-position: 0 -660px; }
-	
+
 	.social-link.facebook a:focus,
 	.social-link.facebook a:hover,
 	.social-link.facebook a:active { background-color: #3B5999 !important; }
@@ -48,5 +48,5 @@
 	.social-link.youtube a:focus,
 	.social-link.youtube a:hover,
 	.social-link.youtube a:active { background-color: #C7231A !important; }
-	
+
 }
