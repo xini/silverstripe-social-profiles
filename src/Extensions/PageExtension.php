@@ -2,6 +2,7 @@
 
 namespace Innoweb\SocialProfiles\Extensions;
 
+use SilverStripe\Core\Config\Config;
 use SilverStripe\SiteConfig\SiteConfig;
 
 class PageExtension extends \SilverStripe\CMS\Model\SiteTreeExtension {
