@@ -9,9 +9,11 @@ Adds social profile links to the site.
 
 ## Requirements
 
-* SilverStripe CMS 4.x
+* SilverStripe CMS 5.x
 
-Note: this version is compatible with SilverStripe 4. For SilverStripe 3, please see the [1.0 release line](https://github.com/xini/silverstripe-social-profiles/tree/1.0).
+Note: this version is compatible with SilverStripe 5.
+For SilverStripe 4, please see the [2.x release line](https://github.com/xini/silverstripe-social-profiles/tree/2).
+For SilverStripe 3, please see the [1.x release line](https://github.com/xini/silverstripe-social-profiles/tree/1.0).
 
 ## Installation
 
@@ -19,7 +21,6 @@ Install the module using composer:
 ```
 composer require innoweb/silverstripe-social-profiles dev-master
 ```
-or download or git clone the module into a ‘social-profiles’ directory in your webroot.
 
 Then run dev/build.
 
