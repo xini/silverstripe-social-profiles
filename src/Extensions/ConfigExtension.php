@@ -11,19 +11,19 @@ use SilverStripe\SiteConfig\SiteConfig;
 class ConfigExtension extends DataExtension {
 
     private static $db = array(
-        'ProfilesFacebookPage' => 'Varchar(1024)',
-        'ProfilesTwitterPage' => 'Varchar(1024)',
-        'ProfilesGooglePage' => 'Varchar(1024)',
-        'ProfilesLinkedinPage' => 'Varchar(1024)',
-        'ProfilesPinterestPage' => 'Varchar(1024)',
-        'ProfilesYoutubePage' => 'Varchar(1024)',
-        'ProfilesInstagramPage' => 'Varchar(1024)',
-        'ProfilesSnapchatPage' => 'Varchar(1024)',
-        'ProfilesTiktokPage' => 'Varchar(1024)',
-        'ProfilesTwitchPage' => 'Varchar(1024)',
-        'ProfilesVimeoPage' => 'Varchar(1024)',
-        'ProfilesRedditPage' => 'Varchar(1024)',
-        'ProfilesGithubPage' => 'Varchar(1024)',
+        'ProfilesFacebookPage' => 'Text',
+        'ProfilesTwitterPage' => 'Text',
+        'ProfilesGooglePage' => 'Text',
+        'ProfilesLinkedinPage' => 'Text',
+        'ProfilesPinterestPage' => 'Text',
+        'ProfilesYoutubePage' => 'Text',
+        'ProfilesInstagramPage' => 'Text',
+        'ProfilesSnapchatPage' => 'Text',
+        'ProfilesTiktokPage' => 'Text',
+        'ProfilesTwitchPage' => 'Text',
+        'ProfilesVimeoPage' => 'Text',
+        'ProfilesRedditPage' => 'Text',
+        'ProfilesGithubPage' => 'Text',
     );
 
     public function updateCMSFields(FieldList $fields) {
