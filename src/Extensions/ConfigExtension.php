@@ -37,7 +37,7 @@ class ConfigExtension extends DataExtension {
             // profiles
             $fields->addFieldsToTab("Root.SocialMediaProfiles", array(
                 new TextField("ProfilesFacebookPage", _t("SocialMediaSiteConfigExtension.FACEBOOKPAGE", 'Facebook Page (full URL)')),
-                new TextField("ProfilesTwitterPage", _t("SocialMediaSiteConfigExtension.TWITTERPAGE", 'Twitter Page (full URL)')),
+                new TextField("ProfilesTwitterPage", _t("SocialMediaSiteConfigExtension.TWITTERPAGE", 'X (Twitter) Page (full URL)')),
                 new TextField("ProfilesGooglePage", _t("SocialMediaSiteConfigExtension.GOOGLEPAGE", 'Google Page (full URL)')),
                 new TextField("ProfilesLinkedinPage", _t("SocialMediaSiteConfigExtension.LINKEDINPAGE", 'LinkedIn Page (full URL)')),
                 new TextField("ProfilesPinterestPage", _t("SocialMediaSiteConfigExtension.PINTERESTPAGE", 'Pinterest Page (full URL)')),

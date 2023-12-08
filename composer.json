@@ -18,8 +18,8 @@
         }
     },
     "suggest": {
-        "innoweb/silverstripe-social-share": "Adds sharing links and buttons for Facebook, Twitter, Instagram, Pinterest and Google+ as well as AddThis to the site.",
-        "innoweb/silverstripe-social-metadata": "Adds social metadata like OpenGraph, Twitter and JSON-LD to all pages."
+        "innoweb/silverstripe-social-share": "Adds sharing links and buttons for Facebook, X (Twitter), Instagram, Pinterest and Google+ as well as AddThis to the site.",
+        "innoweb/silverstripe-social-metadata": "Adds social metadata like OpenGraph, X (Twitter) and JSON-LD to all pages."
     },
     "extra": {
         "expose": [

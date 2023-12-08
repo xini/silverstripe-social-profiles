@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "author": "Innoweb Pty Ltd",
   "license": "BSD-3-Clause",
-  "dependencies": {
-  },
   "devDependencies": {
     "del": "^7.0.0",
     "gulp": "^4.0.2",
@@ -21,13 +19,16 @@
     "sass": "^1.43.5",
     "through2": "^4.0.2"
   },
-  "engines" : {
-    "node" : "^18.0.0"
+  "engines": {
+    "node": "^18.0.0"
   },
   "browserslist": [
     "> 1%",
     "last 5 versions",
     "Firefox ESR",
     "not dead"
-  ]
+  ],
+  "scripts": {
+    "build": "gulp"
+  }
 }
