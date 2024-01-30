@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.0]
+
+Backport changes from 3:
+* add twitch, tiktok, vimeo, reddit, snapchat, github
+* switch to svg icons
+* switch profile fields from Varchar to Text to fix MySQL row size limit issue
+* replace Twitter icon and labels with X
+
 ## [2.0.2]
 
 * fix missing use statement
