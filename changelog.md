@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.1.1]
+
+* fix styles
+* move twitter down
+
 ## [3.1.0]
 
 * replace Twitter icon and labels with X

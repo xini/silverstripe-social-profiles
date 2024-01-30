@@ -1,11 +1,4 @@
 <ul class="social-profiles">
-	<% if $SocialProfilesConfig.ProfilesTwitterPage %>
-        <li class="social-link twitter">
-            <a href="$SocialProfilesConfig.ProfilesTwitterPage" class="image" target="_blank" title="$SocialProfilesConfig.Title on X (Twitter)">
-                <img src="$resourceURL('innoweb/silverstripe-social-profiles:client/dist/icons/x.svg')" height="16" width="16" alt="$SocialProfilesConfig.Title on X (Twitter)">
-            </a>
-        </li>
-	<% end_if %>
 	<% if $SocialProfilesConfig.ProfilesFacebookPage %>
         <li class="social-link facebook">
             <a href="$SocialProfilesConfig.ProfilesFacebookPage" class="image" target="_blank" title="$SocialProfilesConfig.Title on Facebook">
@@ -40,6 +33,13 @@
             <img src="$resourceURL('innoweb/silverstripe-social-profiles:client/dist/icons/instagram.svg')" height="16" width="16" alt="$SocialProfilesConfig.Title on Instagram">
         </a>
 	</li>
+	<% end_if %>
+	<% if $SocialProfilesConfig.ProfilesTwitterPage %>
+        <li class="social-link twitter">
+            <a href="$SocialProfilesConfig.ProfilesTwitterPage" class="image" target="_blank" title="$SocialProfilesConfig.Title on X (Twitter)">
+                <img src="$resourceURL('innoweb/silverstripe-social-profiles:client/dist/icons/x.svg')" height="16" width="16" alt="$SocialProfilesConfig.Title on X (Twitter)">
+            </a>
+        </li>
 	<% end_if %>
 	<% if $SocialProfilesConfig.ProfilesYoutubePage %>
 	<li class="social-link youtube">
