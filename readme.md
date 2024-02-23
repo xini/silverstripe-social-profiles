@@ -36,7 +36,7 @@ To add the profile links to your site, add the following include to your `Page.s
 
 ### MultiSites support
 
-The module supports [[multisites](https://github.com/symbiote/silverstripe-multisites) and [configured-multisites](https://github.com/fromholdio/silverstripe-configured-multisites) and by default adds the config options to the Sites.
+The module supports [multisites](https://github.com/symbiote/silverstripe-multisites) and [configured-multisites](https://github.com/fromholdio/silverstripe-configured-multisites) and by default adds the config options to the Sites.
 
 
 If you want to manage the profiles globally, please add the following settings in your `config.yml`:
