@@ -29,9 +29,10 @@ class ConfigExtension extends DataExtension {
     public function updateCMSFields(FieldList $fields) {
 
         if (
-            !class_exists('Symbiote\Multisites\Multisites')
+            (!class_exists(\Symbiote\Multisites\Multisites::class) && !class_exists(\Fromholdio\ConfiguredMultisites\Multisites::class))
             || (Config::inst()->get(ConfigExtension::class, 'multisites_enable_global_settings') && $this->owner instanceof SiteConfig)
             || (!Config::inst()->get(ConfigExtension::class, 'multisites_enable_global_settings') && $this->owner instanceof \Symbiote\Multisites\Model\Site)
+            || (!Config::inst()->get(ConfigExtension::class, 'multisites_enable_global_settings') && $this->owner instanceof \Fromholdio\ConfiguredMultisites\Model\Site)
         ) {
 
             // profiles
