@@ -12,10 +12,21 @@ SilverStripe\SiteConfig\SiteConfig:
     - Innoweb\SocialProfiles\Extensions\ConfigExtension
 Innoweb\SocialProfiles\Extension\ConfigExtension:
   multisites_enable_global_settings: false
+
 ---
 Only:
-  classexists: 'Symbiote\Multisites\Multisites'
+  moduleexists:
+    - 'symbiote/silverstripe-multisites'
 ---
 Symbiote\Multisites\Model\Site:
+  extensions:
+    - Innoweb\SocialProfiles\Extensions\ConfigExtension
+
+---
+Only:
+  moduleexists:
+    - 'fromholdio/silverstripe-configured-multisites'
+---
+Fromholdio\ConfiguredMultisites\Model\Site:
   extensions:
     - Innoweb\SocialProfiles\Extensions\ConfigExtension
