@@ -5,18 +5,17 @@
   "license": "BSD-3-Clause",
   "devDependencies": {
     "del": "^7.1.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-changed": "^4.0.3",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-changed": "^5.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-cssimport": "^7.0.0",
     "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^8.0.0",
+    "gulp-imagemin": "^9.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "imagemin-svgo": "^10.0.1",
-    "sass": "^1.70.0",
+    "sass": "^1.77.6",
     "through2": "^4.0.2"
   },
   "engines": {

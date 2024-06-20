@@ -5,8 +5,7 @@ import changed from 'gulp-changed';
 import cssimport from 'gulp-cssimport';
 import cleancss from 'gulp-clean-css';
 import { deleteSync } from 'del';
-import imagemin from 'gulp-imagemin';
-import imageminSvgo from 'imagemin-svgo';
+import imagemin, {svgo} from 'gulp-imagemin';
 import plumber from 'gulp-plumber';
 import dartSass from 'sass';
 import gulpSass from 'gulp-sass';
@@ -73,29 +72,30 @@ function styles(cb) {
 }
 
 function svgs(cb) {
-	src(paths.svgs.src + paths.svgs.filter)
-	    .pipe(plumber({
-	        errorHandler: onError
-	    }))
-	    .pipe(changed(paths.svgs.dist))
-	    .pipe(imagemin(
-	        [
-                imageminSvgo({
-	                plugins: [
-	                    {name: 'removeViewBox', active: false},
-	                    {name: 'removeUselessStrokeAndFill', active: false},
-	                    {name: 'cleanupIDs', active: false},
-	                    {name: 'removeUselessDefs', active: false}
-	                ]
-	            })
-	        ],
-	        {
-	            verbose: true
-	        }
-	    ))
-	    .pipe(dest(paths.svgs.dist));
-	cb();
+    src(paths.svgs.src + paths.svgs.filter)
+        .pipe(plumber({
+            errorHandler: onError
+        }))
+        .pipe(changed(paths.svgs.dist))
+        .pipe(imagemin(
+            [
+                svgo({
+                    plugins: [
+                        {name: 'removeViewBox', active: false},
+                        {name: 'removeUselessStrokeAndFill', active: false},
+                        {name: 'cleanupIDs', active: false},
+                        {name: 'removeUselessDefs', active: false}
+                    ]
+                })
+            ],
+            {
+                verbose: true
+            }
+        ))
+        .pipe(dest(paths.svgs.dist));
+    cb();
 }
+
 function cleanstyles(cb) {
     deleteSync([
         paths.styles.dist + paths.styles.distfilter
