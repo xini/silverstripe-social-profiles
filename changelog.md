@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [3.4.1]
 
-* sprt profile fields alphabetically
+* sort profile fields alphabetically
 
 ## [3.4.0]
 
