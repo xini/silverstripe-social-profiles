@@ -41,6 +41,27 @@
             </a>
         </li>
 	<% end_if %>
+    <% if $SocialProfilesConfig.ProfilesBlueskyPage %>
+        <li class="social-link bluesky">
+            <a href="$SocialProfilesConfig.ProfilesBlueskyPage" class="image" target="_blank" title="$SocialProfilesConfig.Title on Bluesky">
+                <img src="$resourceURL('innoweb/silverstripe-social-profiles:client/dist/icons/bluesky.svg')" height="16" width="16" alt="$SocialProfilesConfig.Title on Bluesky">
+            </a>
+        </li>
+    <% end_if %>
+    <% if $SocialProfilesConfig.ProfilesMastodonPage %>
+        <li class="social-link mastodon">
+            <a href="$SocialProfilesConfig.ProfilesMastodonPage" class="image" target="_blank" title="$SocialProfilesConfig.Title on Mastodon">
+                <img src="$resourceURL('innoweb/silverstripe-social-profiles:client/dist/icons/mastodon.svg')" height="16" width="16" alt="$SocialProfilesConfig.Title on Mastodon">
+            </a>
+        </li>
+    <% end_if %>
+    <% if $SocialProfilesConfig.ProfilesThreadsPage %>
+        <li class="social-link threads">
+            <a href="$SocialProfilesConfig.ProfilesThreadsPage" class="image" target="_blank" title="$SocialProfilesConfig.Title on Threads">
+                <img src="$resourceURL('innoweb/silverstripe-social-profiles:client/dist/icons/threads.svg')" height="16" width="16" alt="$SocialProfilesConfig.Title on Threads">
+            </a>
+        </li>
+    <% end_if %>
 	<% if $SocialProfilesConfig.ProfilesYoutubePage %>
 	<li class="social-link youtube">
 		<a href="$SocialProfilesConfig.ProfilesYoutubePage" class="image" target="_blank" title="$SocialProfilesConfig.Title on Youtube">

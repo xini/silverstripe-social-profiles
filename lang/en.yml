@@ -14,3 +14,6 @@ en:
     SNAPCHATPAGE: 'SnapChat Page (full URL)'
     REDDITPAGE: 'Reddit Page (full URL)'
     GITHUBPAGE: 'Github Page (full URL)'
+    THREADSPAGE: 'Threads Page (full URL)'
+    MASTODONPAGE: 'Mastodon Page (full URL)'
+    BLUESKYPAGE: 'Bluesky Page (full URL)'

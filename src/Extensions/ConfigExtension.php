@@ -24,6 +24,9 @@ class ConfigExtension extends DataExtension {
         'ProfilesVimeoPage' => 'Text',
         'ProfilesRedditPage' => 'Text',
         'ProfilesGithubPage' => 'Text',
+        'ProfilesThreadsPage' => 'Text',
+        'ProfilesMastodonPage' => 'Text',
+        'ProfilesBlueskyPage' => 'Text',
     );
 
     public function updateCMSFields(FieldList $fields) {
@@ -50,6 +53,9 @@ class ConfigExtension extends DataExtension {
                 new TextField("ProfilesSnapchatPage", _t("SocialMediaSiteConfigExtension.SNAPCHATPAGE", 'SnapChat Page (full URL)')),
                 new TextField("ProfilesRedditPage", _t("SocialMediaSiteConfigExtension.REDDITPAGE", 'Reddit Page (full URL)')),
                 new TextField("ProfilesGithubPage", _t("SocialMediaSiteConfigExtension.GITHUBPAGE", 'Github Page (full URL)')),
+                new TextField("ProfilesThreadsPage", _t("SocialMediaSiteConfigExtension.THREADSPAGE", 'Threads Page (full URL)')),
+                new TextField("ProfilesMastodonPage", _t("SocialMediaSiteConfigExtension.MASTODONPAGE", 'Mastodon Page (full URL)')),
+                new TextField("ProfilesBlueskyPage", _t("SocialMediaSiteConfigExtension.BLUESKYPAGE", 'Bluesky Page (full URL)')),
             ));
 
             $fields->fieldByName("Root.SocialMediaProfiles")->setTitle(_t('SocialMediaSiteConfigExtension.SocialMediaProfiles', 'Social Media Profiles'));
@@ -76,6 +82,9 @@ class ConfigExtension extends DataExtension {
         $this->owner->ProfilesSnapchatPage = $this->updateLinkURL($this->owner->ProfilesSnapchatPage);
         $this->owner->ProfilesRedditPage = $this->updateLinkURL($this->owner->ProfilesRedditPage);
         $this->owner->ProfilesGithubPage = $this->updateLinkURL($this->owner->ProfilesGithubPage);
+        $this->owner->ProfilesThreadsPage = $this->updateLinkURL($this->owner->ProfilesThreadsPage);
+        $this->owner->ProfilesMastodonPage = $this->updateLinkURL($this->owner->ProfilesMastodonPage);
+        $this->owner->ProfilesBlueskyPage = $this->updateLinkURL($this->owner->ProfilesBlueskyPage);
     }
 
     private function updateLinkURL($url) {
