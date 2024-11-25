@@ -40,22 +40,22 @@ class ConfigExtension extends DataExtension {
 
             // profiles
             $fields->addFieldsToTab("Root.SocialMediaProfiles", array(
-                new TextField("ProfilesFacebookPage", _t("SocialMediaSiteConfigExtension.FACEBOOKPAGE", 'Facebook Page (full URL)')),
-                new TextField("ProfilesTwitterPage", _t("SocialMediaSiteConfigExtension.TWITTERPAGE", 'X (Twitter) Page (full URL)')),
-                new TextField("ProfilesGooglePage", _t("SocialMediaSiteConfigExtension.GOOGLEPAGE", 'Google Page (full URL)')),
-                new TextField("ProfilesLinkedinPage", _t("SocialMediaSiteConfigExtension.LINKEDINPAGE", 'LinkedIn Page (full URL)')),
-                new TextField("ProfilesPinterestPage", _t("SocialMediaSiteConfigExtension.PINTERESTPAGE", 'Pinterest Page (full URL)')),
-                new TextField("ProfilesInstagramPage", _t("SocialMediaSiteConfigExtension.INSTAGRAMPAGE", 'Instagram Page (full URL)')),
-                new TextField("ProfilesYoutubePage", _t("SocialMediaSiteConfigExtension.YOUTUBEPAGE", 'Youtube Page (full URL)')),
-                new TextField("ProfilesVimeoPage", _t("SocialMediaSiteConfigExtension.VIMEOPAGE", 'Vimeo Page (full URL)')),
-                new TextField("ProfilesTwitchPage", _t("SocialMediaSiteConfigExtension.TWITCHPAGE", 'Twitch Page (full URL)')),
-                new TextField("ProfilesTiktokPage", _t("SocialMediaSiteConfigExtension.TIKTOKPAGE", 'TikTok Page (full URL)')),
-                new TextField("ProfilesSnapchatPage", _t("SocialMediaSiteConfigExtension.SNAPCHATPAGE", 'SnapChat Page (full URL)')),
-                new TextField("ProfilesRedditPage", _t("SocialMediaSiteConfigExtension.REDDITPAGE", 'Reddit Page (full URL)')),
-                new TextField("ProfilesGithubPage", _t("SocialMediaSiteConfigExtension.GITHUBPAGE", 'Github Page (full URL)')),
-                new TextField("ProfilesThreadsPage", _t("SocialMediaSiteConfigExtension.THREADSPAGE", 'Threads Page (full URL)')),
-                new TextField("ProfilesMastodonPage", _t("SocialMediaSiteConfigExtension.MASTODONPAGE", 'Mastodon Page (full URL)')),
                 new TextField("ProfilesBlueskyPage", _t("SocialMediaSiteConfigExtension.BLUESKYPAGE", 'Bluesky Page (full URL)')),
+                new TextField("ProfilesFacebookPage", _t("SocialMediaSiteConfigExtension.FACEBOOKPAGE", 'Facebook Page (full URL)')),
+                new TextField("ProfilesGithubPage", _t("SocialMediaSiteConfigExtension.GITHUBPAGE", 'Github Page (full URL)')),
+                new TextField("ProfilesGooglePage", _t("SocialMediaSiteConfigExtension.GOOGLEPAGE", 'Google Page (full URL)')),
+                new TextField("ProfilesInstagramPage", _t("SocialMediaSiteConfigExtension.INSTAGRAMPAGE", 'Instagram Page (full URL)')),
+                new TextField("ProfilesLinkedinPage", _t("SocialMediaSiteConfigExtension.LINKEDINPAGE", 'LinkedIn Page (full URL)')),
+                new TextField("ProfilesMastodonPage", _t("SocialMediaSiteConfigExtension.MASTODONPAGE", 'Mastodon Page (full URL)')),
+                new TextField("ProfilesPinterestPage", _t("SocialMediaSiteConfigExtension.PINTERESTPAGE", 'Pinterest Page (full URL)')),
+                new TextField("ProfilesRedditPage", _t("SocialMediaSiteConfigExtension.REDDITPAGE", 'Reddit Page (full URL)')),
+                new TextField("ProfilesSnapchatPage", _t("SocialMediaSiteConfigExtension.SNAPCHATPAGE", 'SnapChat Page (full URL)')),
+                new TextField("ProfilesThreadsPage", _t("SocialMediaSiteConfigExtension.THREADSPAGE", 'Threads Page (full URL)')),
+                new TextField("ProfilesTiktokPage", _t("SocialMediaSiteConfigExtension.TIKTOKPAGE", 'TikTok Page (full URL)')),
+                new TextField("ProfilesTwitchPage", _t("SocialMediaSiteConfigExtension.TWITCHPAGE", 'Twitch Page (full URL)')),
+                new TextField("ProfilesVimeoPage", _t("SocialMediaSiteConfigExtension.VIMEOPAGE", 'Vimeo Page (full URL)')),
+                new TextField("ProfilesYoutubePage", _t("SocialMediaSiteConfigExtension.YOUTUBEPAGE", 'Youtube Page (full URL)')),
+                new TextField("ProfilesTwitterPage", _t("SocialMediaSiteConfigExtension.TWITTERPAGE", 'X (Twitter) Page (full URL)')),
             ));
 
             $fields->fieldByName("Root.SocialMediaProfiles")->setTitle(_t('SocialMediaSiteConfigExtension.SocialMediaProfiles', 'Social Media Profiles'));
