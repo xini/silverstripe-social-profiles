@@ -1,29 +1,29 @@
 {
 	"name": "innoweb/silverstripe-social-profiles",
 	"description": "Adds social profile links to the site.",
-    "type": "silverstripe-vendormodule",
+	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "social", "profiles"],
 	"authors": [{
 		"name": "Florian Thoma",
-		"homepage": "http://www.innoweb.com.au"
+		"homepage": "https://www.innoweb.com.au"
 	}],
 	"require": {
-		"silverstripe/cms": "^5",
-		"silverstripe/vendor-plugin": "^2"
+		"silverstripe/cms": "^6",
+		"silverstripe/vendor-plugin": "^3"
 	},
-    "autoload": {
-        "psr-4": {
-            "Innoweb\\SocialProfiles\\": "src/"
-        }
-    },
-    "suggest": {
-        "innoweb/silverstripe-social-share": "Adds sharing links and buttons for Facebook, X (Twitter), Instagram, Pinterest and Google+ as well as AddThis to the site.",
-        "innoweb/silverstripe-social-metadata": "Adds social metadata like OpenGraph, X (Twitter) and JSON-LD to all pages."
-    },
-    "extra": {
-        "expose": [
-            "client/dist"
-        ]
-    }
+	"autoload": {
+		"psr-4": {
+			"Innoweb\\SocialProfiles\\": "src/"
+		}
+	},
+	"suggest": {
+		"innoweb/silverstripe-social-share": "Adds sharing links and buttons for Facebook, X (Twitter), Instagram, Pinterest and Google+ as well as AddThis to the site.",
+		"innoweb/silverstripe-social-metadata": "Adds social metadata like OpenGraph, X (Twitter) and JSON-LD to all pages."
+	},
+	"extra": {
+		"expose": [
+			"client/dist"
+		]
+	}
 }

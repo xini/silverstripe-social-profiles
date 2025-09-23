@@ -3,11 +3,13 @@
 namespace Innoweb\SocialProfiles\Extensions;
 
 use SilverStripe\Core\Config\Config;
+use SilverStripe\Core\Extension;
 use SilverStripe\SiteConfig\SiteConfig;
 
-class PageExtension extends \SilverStripe\CMS\Model\SiteTreeExtension
+class PageExtension extends Extension
 {
-    public function getSocialProfilesConfig() {
+    public function getSocialProfilesConfig()
+    {
         if (class_exists(\Symbiote\Multisites\Multisites::class)
             && !Config::inst()->get(ConfigExtension::class, 'multisites_enable_global_settings')
         ) {
@@ -21,4 +23,3 @@ class PageExtension extends \SilverStripe\CMS\Model\SiteTreeExtension
         }
     }
 }
-
